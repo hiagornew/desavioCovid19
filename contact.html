@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+  <head>
+    <title>COVID-19 Contato</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Sobre</a></li>
+          <li><a href="contact.html">Contato</a></li>
+          <li><a href="https://coronavirus.saude.gov.br/">Saiba Mais</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="box">
+        <form class="form-flex" method="POST">
+          <div>
+            <span class="input-req">E-mail</span>
+            <input type="email" placeholder="Ex.: exemplo@email.com" name="email" required>
+          </div>
+
+          <div>
+            <span class="input-req">Nome</span>
+            <input type="text" placeholder="Ex.: Pedro" name="name" required>
+          </div>
+
+          <div>
+            <span class="input-req">Mensagem</span>
+            <textarea name="message" required></textarea>
+          </div>
+          
+          <div>
+            <span class="form-msg">* Campo obrigatório.</span>
+            <input type="submit" value="Enviar">
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <span class="copyright">&copy; Hiagor Queiros</span>
+    </footer>
+  </body>
+</html>

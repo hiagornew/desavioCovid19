@@ -1,0 +1,45 @@
+.navbar {
+    background-color: coral;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0 0 35px 35px;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    padding: 50px 25px;
+    color: black;
+    background-color: chocolate;
+    white-space: nowrap;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 0 0 15px 15px;
+    transition: .4s;
+  }
+  
+  .navbar a:hover {
+    color:white;
+    background: black;
+    border-radius: 2;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .navbar li {
+    margin: 10px 0px;
+  }
+  
+  @media (max-width: 800px) {
+    .navbar ul {
+      flex-direction: column;
+    }
+  }
